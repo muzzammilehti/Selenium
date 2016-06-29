@@ -18,7 +18,7 @@ public class Testcase2 extends LinkedInWrapper {
         clickByXpath("//*[@id='pivot-bar']/ul/li[2]/button");
         String result = getTextByXpath("//*[@id='results_count']/div/p/strong");
         Thread.sleep(2000);
-        System.out.println(result);
+        System.out.println("The result is :" +result);
         
     }
 }
