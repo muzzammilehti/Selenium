@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="execution" junit="false" verbose="2">
+
+<test name="sequentially" junit="false" verbose="2">
+<classes>
+<class name="execution.Testcase1"></class>
+<class name="execution.Testcase2"></class>
+</classes>
+</test>
+<test name="parallely" junit="false" verbose="2" parallel="classes">
+<classes>
+<class name="execution.Testcase3"></class>
+<class name="execution.Testcase4"></class>
+</classes>
+</test>
+
+</suite>

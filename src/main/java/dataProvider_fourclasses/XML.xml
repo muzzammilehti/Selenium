@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite3" junit="false" verbose="2">
+<groups>
+<run>
+<include name="AdvanceSearch"></include>
+<include name="Profile"></include>
+
+
+</run>
+
+</groups>
+<test name="testcase1" junit="false">
+<classes>
+
+<class name="dataProvider_fourclasses.Testcase1"></class>
+<class name="dataProvider_fourclasses.Testcase2"></class>
+<class name="dataProvider_fourclasses.Testcase3"></class>
+<class name="dataProvider_fourclasses.Testcase4"></class>
+
+</classes>
+
+
+</test> 
+
+
+</suite>

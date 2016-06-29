@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testcase1" >
+  <test verbose="2" name="case" parallel="method" thread-count="3">
+    <classes>
+    <groups>
+    <run>
+    <include name="AdvanceSearch"></include>
+    <include name="Profile"></include>
+    </run>
+    </groups>     
+      <class name="testNG.Testcase1"/>
+      <class name="testNG.Testcase2"/>
+      <class name="testNG.Testcase3"/>
+      <class name="testNG.Testcase4"/>
+     </classes>
+  </test>  
+</suite> 
